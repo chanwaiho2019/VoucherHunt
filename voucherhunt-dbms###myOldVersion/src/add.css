@@ -1,0 +1,41 @@
+#add-data {
+    font-size: 16px;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 6fr; */
+    border: 2px solid #059BE5;
+    width: fit-content;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: rgba(255, 166, 17, 0.7);
+    
+}
+
+input {
+    width: 500px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    
+}
+
+label {
+    margin-top: 30px;
+    margin-left: 50px;
+} 
+
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    color: #059BE5;
+}
+
+button {
+    margin-left: 30px;
+}
+
+#add-submit {
+    width: 5em;
+    margin-left: 440px;
+    
+}
+
+

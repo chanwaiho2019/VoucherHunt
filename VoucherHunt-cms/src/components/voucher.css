@@ -1,0 +1,40 @@
+.voucher{
+    margin: 20px;
+    align-self: flex-start;
+    background: #FFF;
+    color: black;
+    text-decoration: none;
+    display: block;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+}
+
+.voucher .img_container{
+    height: 150px;
+    background: url(https://dummyimage.com/600x400/000/fff);
+    background-size: cover;
+}
+
+.voucher:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+}
+
+.voucher .content_wrapper{
+    padding: 10px;
+}
+
+.voucher .content_wrapper .title{
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+.voucher .content_wrapper .create_date{
+    font-size: 12px;
+    color: #777777;
+}

@@ -1,0 +1,86 @@
+
+.update-form{
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 10px;
+    border: solid #059BE5;
+    background-color: rgba(255,166,17, 0.7);
+}
+
+.update-form .delete-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.update-form .delete-button-container button{
+    background-color: rgba(255, 51, 51, 0.9);
+    border: none;
+    border-radius: 5px;
+}
+
+.input_field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.input_field label{
+    width: 10%;
+    overflow-wrap: anywhere;
+    flex: 1;
+    max-width: 100px;
+    min-width: 100px;
+}
+
+.input_field input{
+    width: 60%;
+    flex: 4;
+}
+
+.input_field input[type=file] {
+    flex: 1;
+    padding: 5px;
+}
+
+.input_field img {
+    max-width: 200px;
+    max-height: 200px;
+    flex: 2;
+}
+
+.input_field label, .input_field input, img{
+    display: inline-block;
+    margin: 0;
+}
+
+.tag_label {
+    display: flex;
+    margin: 20px;
+    overflow: scroll;
+    margin-left: 100px;
+}
+
+.tag_label label {
+    display: inline-block;
+    margin: 0 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: lightgray;
+    
+}
+
+.tag_label label:hover {
+    text-decoration: line-through;
+}
+
+.image_container{
+    display: block;
+    margin: 10px 0;
+}
+
+.image_container img{
+    display: block;
+    width: 100%;
+}
